@@ -1,3 +1,4 @@
+# Program number 3
 Pounds = float (input ('how many pounds would you like to purchase?\nInput number here: '))
 GrossSales = Pounds * .99
 if ((Pounds >= 10) and (Pounds <= 99.99)):
