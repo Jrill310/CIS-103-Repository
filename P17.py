@@ -1,3 +1,4 @@
+#Program number 17
 from random import *
 YesNo = 'y'
 def Powerball(x):
@@ -45,7 +46,7 @@ while YesNo == 'y':
     x = 0
     z = 0
     try:
-        choice = int(input ('1.   Powerball\n2.   Mega Millions\n3.   Mega Millions\n4.   Lotto\n\n9.   Quit\n\nInput Here: '))
+        choice = int(input ('1.   Powerball\n2.   Mega Millions\n3.   Lucky Day Lotto\n4.   Lotto\n\n9.   Quit\n\nInput Here: '))
         if choice == 1:
             x = 69
             Powerball(x)
